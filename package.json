@@ -1,6 +1,6 @@
 {
   "name": "@jsantell/metalsmith-plugins",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of personal metalsmith plugins.",
   "main": "index.js",
   "repository": {

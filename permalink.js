@@ -17,7 +17,7 @@ module.exports = function permalink (config) {
       if (name === 'index') {
         p = `${dir}/`; 
       }
-      file.relativelink = `${p ? `/${p}` : ''}`;
+      file.relativelink = `${p.charAt(0) === '/' ? '' : '/'}${p}`;
       file.permalink = `${config.host}${file.relativelink}`;
     }
   }
